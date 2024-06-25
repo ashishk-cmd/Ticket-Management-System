@@ -1,0 +1,222 @@
+2024-04-02 10:02:20.397  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Starting AiimsTmsAppApisApplication using Java 15.0.1 on DESKTOP-RD6A3J2 with PID 9524 (D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis\target\classes started by ashis in D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis)
+2024-04-02 10:02:20.398  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 10:02:20.859  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02 10:02:20.897  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 7 JPA repository interfaces.
+2024-04-02 10:02:21.077  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-04-02 10:02:21.078  INFO 9524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02 10:02:21.079  INFO 9524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-04-02 10:02:21.124  INFO 9524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02 10:02:21.124  INFO 9524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2024-04-02 10:02:21.189  INFO 9524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02 10:02:21.198  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-02 10:02:21.228  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-02 10:02:21.228  INFO 9524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-02 10:02:21.585  INFO 9524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-02 10:02:21.585  INFO 9524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 10:02:21.808  WARN 9524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02 10:02:22.002  INFO 9524 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.tms.utils.DatabaseBackupService.backupLocation
+2024-04-02 10:02:22.239  INFO 9524 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@444c19bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@76059c8b, org.springframework.security.web.header.HeaderWriterFilter@4e6c27d3, org.springframework.web.filter.CorsFilter@6aa5c9f6, org.springframework.security.web.authentication.logout.LogoutFilter@3d195266, com.tms.security.JwtAuthenticationFilter@1e987687, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@984de0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4334c750, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cc9325a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64523fb4, org.springframework.security.web.session.SessionManagementFilter@441e43a, org.springframework.security.web.access.ExceptionTranslationFilter@418e915a, org.springframework.security.web.access.intercept.AuthorizationFilter@7d0cae64]
+2024-04-02 10:02:22.279  INFO 9524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02 10:02:22.592  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-02 10:02:22.974  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Started AiimsTmsAppApisApplication in 2.67 seconds (JVM running for 343.94)
+2024-04-02 10:02:22.977  INFO 9524 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-02 10:02:35.635  INFO 9524 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 10:02:35.635  INFO 9524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02 10:02:35.637  INFO 9524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-02 10:02:35.637 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/GrievenceByEmpId
+2024-04-02 10:02:35.637 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:02:35.677 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/GrievenceByEmpId
+2024-04-02 10:02:35.680  INFO 9524 --- [http-nio-8080-exec-2] com.tms.controllers.AdminController      : Starting get grievance by empid method
+2024-04-02 10:02:35.686  INFO 9524 --- [http-nio-8080-exec-2] com.tms.services.impl.AdminServiceImpl   : get all method in service class started
+2024-04-02 10:02:35.764  INFO 9524 --- [http-nio-8080-exec-2] com.tms.services.impl.AdminServiceImpl   : get all method in service class ended
+2024-04-02 10:02:35.782 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:05:08.102 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/GrievenceByEmpId
+2024-04-02 10:05:08.102 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:05:08.111 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/GrievenceByEmpId
+2024-04-02 10:05:08.112  INFO 9524 --- [http-nio-8080-exec-5] com.tms.controllers.AdminController      : Starting get grievance by empid method
+2024-04-02 10:05:08.113  INFO 9524 --- [http-nio-8080-exec-5] com.tms.services.impl.AdminServiceImpl   : get all method in service class started
+2024-04-02 10:05:08.136  INFO 9524 --- [http-nio-8080-exec-5] com.tms.services.impl.AdminServiceImpl   : get all method in service class ended
+2024-04-02 10:05:08.142 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:14:39.108  INFO 9524 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 10:14:39.109  INFO 9524 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-02 10:14:39.120  INFO 9524 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-02 10:14:39.279  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Starting AiimsTmsAppApisApplication using Java 15.0.1 on DESKTOP-RD6A3J2 with PID 9524 (D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis\target\classes started by ashis in D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis)
+2024-04-02 10:14:39.280  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 10:14:39.716  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02 10:14:39.750  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 7 JPA repository interfaces.
+2024-04-02 10:14:40.036  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-04-02 10:14:40.038  INFO 9524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02 10:14:40.038  INFO 9524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-04-02 10:14:40.131  INFO 9524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02 10:14:40.131  INFO 9524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 849 ms
+2024-04-02 10:14:40.185  INFO 9524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02 10:14:40.193  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-04-02 10:14:40.219  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-04-02 10:14:40.220  INFO 9524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-02 10:14:40.477  INFO 9524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-02 10:14:40.477  INFO 9524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 10:14:40.689  WARN 9524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02 10:14:40.893  INFO 9524 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.tms.utils.DatabaseBackupService.backupLocation
+2024-04-02 10:14:41.053  INFO 9524 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33d107e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@336f62d7, org.springframework.security.web.header.HeaderWriterFilter@3b6e26b5, org.springframework.web.filter.CorsFilter@1b4e371d, org.springframework.security.web.authentication.logout.LogoutFilter@663e1bd, com.tms.security.JwtAuthenticationFilter@31241ed0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e4e6d63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a77df8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4eb6a857, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66970269, org.springframework.security.web.session.SessionManagementFilter@3d57a665, org.springframework.security.web.access.ExceptionTranslationFilter@41ced634, org.springframework.security.web.access.intercept.AuthorizationFilter@421bf751]
+2024-04-02 10:14:41.091  INFO 9524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02 10:14:41.225  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-02 10:14:41.518  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Started AiimsTmsAppApisApplication in 2.279 seconds (JVM running for 1082.484)
+2024-04-02 10:14:41.521  INFO 9524 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-02 10:15:08.994  INFO 9524 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 10:15:08.994  INFO 9524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02 10:15:08.996  INFO 9524 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-02 10:15:08.996 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /admin/GrievenceByEmpId
+2024-04-02 10:15:08.996 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:15:09.028 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /admin/GrievenceByEmpId
+2024-04-02 10:15:09.029  INFO 9524 --- [http-nio-8080-exec-2] com.tms.controllers.AdminController      : Starting get grievance by empid method
+2024-04-02 10:15:09.036  INFO 9524 --- [http-nio-8080-exec-2] com.tms.services.impl.AdminServiceImpl   : get all method in service class started
+2024-04-02 10:15:09.091  INFO 9524 --- [http-nio-8080-exec-2] com.tms.services.impl.AdminServiceImpl   : get all method in service class ended
+2024-04-02 10:15:09.097 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:15:19.603  INFO 9524 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 10:15:19.604  INFO 9524 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-04-02 10:15:19.610  INFO 9524 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-04-02 10:15:19.761  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Starting AiimsTmsAppApisApplication using Java 15.0.1 on DESKTOP-RD6A3J2 with PID 9524 (D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis\target\classes started by ashis in D:\IDE\workspace-spring-tool-suite-4-4.9.0.RELEASE\aiims-tms-app-apis)
+2024-04-02 10:15:19.761  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-04-02 10:15:20.161  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02 10:15:20.197  INFO 9524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 7 JPA repository interfaces.
+2024-04-02 10:15:20.405  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-04-02 10:15:20.406  INFO 9524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-02 10:15:20.407  INFO 9524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2024-04-02 10:15:20.467  INFO 9524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-02 10:15:20.468  INFO 9524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2024-04-02 10:15:20.518  INFO 9524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02 10:15:20.523  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-04-02 10:15:20.554  INFO 9524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-04-02 10:15:20.555  INFO 9524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-04-02 10:15:20.789  INFO 9524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-02 10:15:20.789  INFO 9524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 10:15:20.981  WARN 9524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02 10:15:21.192  INFO 9524 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.tms.utils.DatabaseBackupService.backupLocation
+2024-04-02 10:15:21.330  INFO 9524 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cd3da3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f8da94e, org.springframework.security.web.header.HeaderWriterFilter@5d2e2f25, org.springframework.web.filter.CorsFilter@1db51f26, org.springframework.security.web.authentication.logout.LogoutFilter@5c005d6c, com.tms.security.JwtAuthenticationFilter@74f01784, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e922d17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e6bf37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7290a893, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@339318b, org.springframework.security.web.session.SessionManagementFilter@2d3639e5, org.springframework.security.web.access.ExceptionTranslationFilter@1100ee5, org.springframework.security.web.access.intercept.AuthorizationFilter@2a525a9e]
+2024-04-02 10:15:21.406  INFO 9524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02 10:15:21.541  INFO 9524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-02 10:15:21.817  INFO 9524 --- [restartedMain] com.tms.AiimsTmsAppApisApplication       : Started AiimsTmsAppApisApplication in 2.096 seconds (JVM running for 1122.782)
+2024-04-02 10:15:21.819  INFO 9524 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-02 10:41:59.616  INFO 9524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-02 10:41:59.616  INFO 9524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-02 10:41:59.619  INFO 9524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-02 10:41:59.620 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2024-04-02 10:41:59.622 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.631 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.632 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2024-04-02 10:41:59.638 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:41:59.666 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/springfox.css?v=3.0.0
+2024-04-02 10:41:59.666 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.672 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.675 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/springfox.css?v=3.0.0
+2024-04-02 10:41:59.684 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:41:59.685 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css?v=3.0.0
+2024-04-02 10:41:59.685 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.687 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2024-04-02 10:41:59.687 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.688 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.688 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css?v=3.0.0
+2024-04-02 10:41:59.689 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.691 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2024-04-02 10:41:59.701 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2024-04-02 10:41:59.701 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.704 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.705 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2024-04-02 10:41:59.712 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:41:59.715 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/springfox.js?v=3.0.0
+2024-04-02 10:41:59.715 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:41:59.716 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:41:59.778 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/springfox.js?v=3.0.0
+2024-04-02 10:41:59.747 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:41:59.752 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:41:59.784 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:42:00.046 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources/configuration/ui
+2024-04-02 10:42:00.046 DEBUG 9524 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:42:00.047 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:42:00.047 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources/configuration/ui
+2024-04-02 10:42:00.047 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2024-04-02 10:42:00.047 DEBUG 9524 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:42:00.048 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:42:00.049 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2024-04-02 10:42:00.053 DEBUG 9524 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:42:00.064 DEBUG 9524 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:42:00.068 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources/configuration/security
+2024-04-02 10:42:00.069 DEBUG 9524 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:42:00.069 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:42:00.069 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources/configuration/security
+2024-04-02 10:42:00.074 DEBUG 9524 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:42:00.079 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources
+2024-04-02 10:42:00.079 DEBUG 9524 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:42:00.080 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:42:00.080 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources
+2024-04-02 10:42:00.084 DEBUG 9524 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:42:00.148 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /v2/api-docs
+2024-04-02 10:42:00.148 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:42:00.149 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:42:00.149 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /v2/api-docs
+2024-04-02 10:42:00.404 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:51.929 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/index.html
+2024-04-02 10:43:51.929 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:51.930 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:51.930 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/index.html
+2024-04-02 10:43:51.933 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:51.972 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/springfox.css?v=3.0.0
+2024-04-02 10:43:51.973 DEBUG 9524 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:51.973 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:51.973 DEBUG 9524 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/springfox.css?v=3.0.0
+2024-04-02 10:43:51.976 DEBUG 9524 --- [http-nio-8080-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:51.982 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui.css?v=3.0.0
+2024-04-02 10:43:51.982 DEBUG 9524 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:51.982 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:51.982 DEBUG 9524 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui.css?v=3.0.0
+2024-04-02 10:43:51.984 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2024-04-02 10:43:51.984 DEBUG 9524 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:51.985 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:51.985 DEBUG 9524 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2024-04-02 10:43:52.099 DEBUG 9524 --- [http-nio-8080-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:52.099 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2024-04-02 10:43:52.099 DEBUG 9524 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:52.100 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/springfox.js?v=3.0.0
+2024-04-02 10:43:52.100 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:52.100 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:52.100 DEBUG 9524 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2024-04-02 10:43:52.101 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:52.101 DEBUG 9524 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/springfox.js?v=3.0.0
+2024-04-02 10:43:52.462 DEBUG 9524 --- [http-nio-8080-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:52.655 DEBUG 9524 --- [http-nio-8080-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:52.812 DEBUG 9524 --- [http-nio-8080-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:53.273 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources/configuration/ui
+2024-04-02 10:43:53.273 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:53.274 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:53.274 DEBUG 9524 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources/configuration/ui
+2024-04-02 10:43:53.275 DEBUG 9524 --- [http-nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:53.280 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2024-04-02 10:43:53.280 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:53.281 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:53.281 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2024-04-02 10:43:53.284 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:53.287 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources/configuration/security
+2024-04-02 10:43:53.287 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:53.288 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:53.288 DEBUG 9524 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources/configuration/security
+2024-04-02 10:43:53.289 DEBUG 9524 --- [http-nio-8080-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:53.297 DEBUG 9524 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /swagger-resources
+2024-04-02 10:43:53.297 DEBUG 9524 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:53.298 DEBUG 9524 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:53.298 DEBUG 9524 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /swagger-resources
+2024-04-02 10:43:53.300 DEBUG 9524 --- [http-nio-8080-exec-6] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:43:53.347 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /v2/api-docs
+2024-04-02 10:43:53.347 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:43:53.348 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-04-02 10:43:53.348 DEBUG 9524 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /v2/api-docs
+2024-04-02 10:43:53.391 DEBUG 9524 --- [http-nio-8080-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 10:46:09.265 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /admin/GrievenceByEmpId
+2024-04-02 10:46:09.265 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2024-04-02 10:46:09.293 DEBUG 9524 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /admin/GrievenceByEmpId
+2024-04-02 10:46:09.294  INFO 9524 --- [http-nio-8080-exec-5] com.tms.controllers.AdminController      : Starting get grievance by empid method
+2024-04-02 10:46:09.300  INFO 9524 --- [http-nio-8080-exec-5] com.tms.services.impl.AdminServiceImpl   : get all method in service class started
+2024-04-02 10:46:09.353  INFO 9524 --- [http-nio-8080-exec-5] com.tms.services.impl.AdminServiceImpl   : get all method in service class ended
+2024-04-02 10:46:09.366 DEBUG 9524 --- [http-nio-8080-exec-5] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2024-04-02 11:43:40.151  INFO 9524 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02 11:43:40.152  INFO 9524 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-04-02 11:43:40.157  INFO 9524 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
